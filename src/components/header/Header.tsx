@@ -12,22 +12,22 @@ export const Header = () => {
        <nav className='flex items-center justify-center bg-primary py-4'>
         <ul className='flex gap-2'>
             <li>
-                <Link href='/' data-active={currentPath === '/'} className='data-[active=true]: underline'>
-                Página Inicial
+                <Link href='/'>
+                FERRAMENTAS
                 </Link>
             </li>
             <li>
-                <Link href='/' data-active={currentPath === '/'} className='data-[active=true]: underline'>
-                SOBRE O CONTROLE DE CAIXA
+                <Link href='/'>
+                A EMPRESA
                 </Link>
             </li>
             <li>
-                <Link href='/precos' data-active={currentPath === '/'} className='data-[active=true]: underline'>
+                <Link href='/precos'>
                 PREÇOS
                 </Link>
             </li>
             <li>
-                <Link href='/conteudo' data-active={currentPath === '/'} className='data-[active=true]: underline'>
+                <Link href='/conteudo'>
                 CONTEÚDO
                 </Link>
                 <nav>
@@ -38,17 +38,17 @@ export const Header = () => {
                          </Link>
                         </li>
                         <li>
-                        <Link href='/videos' data-active={currentPath === '/'} className='data-[active=true]: underline'>
+                        <Link href='/videos'>
                         VÍDEOS & TUTORIAIS
                         </Link>
                         </li>
                         <li>
-                        <Link href='/history' data-active={currentPath === '/'} className='data-[active=true]: underline'>
+                        <Link href='/history'>
                         HISTÓRIAS DE SUCESSO
                         </Link>
                         </li>
                         <li>
-                        <Link href='/materials' data-active={currentPath === '/'} className='data-[active=true]: underline'>
+                        <Link href='/materials'>
                         MATERIAIS
                         </Link>
                         </li>

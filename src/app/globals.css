@@ -3,20 +3,11 @@
 @tailwind utilities;
 
 :root{
-    --color-text: #ffffff;
+    --color-text: #7a7575;
     --color-error: #980000;
     --color-paper: #232323;
     --color-primary: #009688;
-    --color-background: #000000;
-    --color-primary-contrast: #ffffff;
-}
-
-html[light] {
-    --color-text: #000000;
-    --color-error: #980000;
-    --color-paper: #ffffff;
-    --color-primary: #009688;
-    --color-background: #cacaca;
+    --color-background: hwb(166 73% 7%);
     --color-primary-contrast: #ffffff;
 }
 
