@@ -148,11 +148,11 @@ export default function Navbar() {
 
          {/* Right side data */}
          <section className=" hidden md:flex   items-center gap-6 ">
-         <button className="h-fit rounded-xl border-2 border-neutral-400 px-4 py-2 text-neutral-400 transition-all hover:border-black hover:text-black/90">
+         <button className="h-fit rounded-xl border-2 border-neutral-400 px-8 py-2 text-neutral-400 transition-all hover:border-black hover:text-black/90">
           Login
         </button>
 
-        <button className="h-fit rounded-xl border-2 border-neutral-400 px-4 py-2 text-neutral-400 transition-all hover:border-black hover:text-black/90">
+        <button className="h-fit rounded-xl border-2 border-neutral-400 px-8 py-2 text-neutral-400 transition-all hover:border-black hover:text-black/90">
           Cadastre-se
         </button>
       </section>
@@ -189,7 +189,7 @@ function MobileNav({ closeSideMenu }: { closeSideMenu: () => void }) {
           </div>
   
           <section className="  flex  flex-col   gap-8  mt-4 items-center">
-            <button className="h-fit text-neutral-400 transition-all hover:text-black/90">
+          <button className="w-full  max-w-[200px]  rounded-xl border-2 border-neutral-400 px-4 py-2 text-neutral-400 transition-all hover:border-black hover:text-black/90">
               Login
             </button>
   
