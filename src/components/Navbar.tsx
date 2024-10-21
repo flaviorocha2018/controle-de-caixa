@@ -24,11 +24,11 @@ const navItems : NavItem[] = [
         children:[
             {
                 label: "A Experiência",
-                link: '#',
+                link: '/experience',
             },
             {
                 label: "Valores",
-                link: '#',
+                link: '/mission-e-values',
             },
             {
                 label: "Missão",
